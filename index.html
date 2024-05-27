@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="pos">
+        <h1>Basic Calculator</h1>
+    </header>
+    <div class="whole">
+        <div class="calculator">
+            <input type="text"placeholder="0"id="res-sh">
+            <button onclick="Clear()">Cl</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="mat('%')">%</button>
+            <button onclick="mat('/')">/</button>
+            <button onclick="mat('7')">7</button>
+            <button onclick="mat('8')">8</button>
+            <button onclick="mat('9')">9</button>
+            <button onclick="mat('*')">*</button>
+            <button onclick="mat('4')">4</button>
+            <button onclick="mat('5')">5</button>
+            <button onclick="mat('6')">6</button>
+            <button onclick="mat('+')">+</button>
+            <button onclick="mat('1')">1</button>
+            <button onclick="mat('2')">2</button>
+            <button onclick="mat('3')">3</button>
+            <button onclick="mat('-')">-</button>
+            <button onclick="mat('0')">0</button>
+            <button onclick="mat('.')">.</button>
+            <button onclick="Calculate()"class="eq">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

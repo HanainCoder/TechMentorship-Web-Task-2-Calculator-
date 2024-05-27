@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    /* background-color:rgb(163, 170, 171); */
+    background-image: linear-gradient(rgb(109, 109, 158),rgb(185, 165, 165));
+    /* background-image: url(Images/Untitled\ design\ \(6\).png); */
+}
+.pos h1{
+    font-size:33px;
+    text-align:center;
+    padding:20px 30px;
+    margin:20px 30px;
+    border:2px solid transparent;
+    color:rgb(9, 9, 82);
+    /* transition:0.3s; */
+    position:relative;
+}
+.pos h1:hover{
+    color:chocolate;
+        
+} 
+.pos:hover h1::after{
+    content:"";
+    height:6px;
+    width:360px;
+    background-color:darkmagenta;
+    display:block;
+    position:absolute;
+    transition:0.3s;
+    align-items: center;
+    left:35%;
+    top:100%;
+}
+.whole{
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color:rgb(127, 127, 139);
+    padding:15px;
+    border-radius:30px;
+    display:grid; 
+    grid-template-columns: repeat(4, 70px);
+}
+input{
+    grid-column:span 4;
+    height:70px;
+    width:280px;
+    background-color:#e1c2c2;
+    border:none;
+    border-radius:30px;
+    color:rgb(70,70, 70);
+    font-size:48px;
+    text-align: end;
+    margin:auto;
+    margin-bottom:30px;
+    margin-top:40px;
+    padding: 30px;
+}
+button{
+    height:48px;
+    width:50px;
+    margin:8px;
+    background-color:rgb(247, 203, 211);
+    color:black;
+    border:none;
+    border-radius:50%;
+    font-size:18px;
+    text-align: center;
+    justify-content: center;
+}
+.eq{
+    width:120px;
+    border-radius:30px;
+}
+  
